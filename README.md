@@ -124,6 +124,12 @@ See [tmk_core/doc/keymap.md](tmk_core/doc/keymap.md).
 
 
 
+See debug output
+----------------
+
+To see debug output and access the console mode, use the hid_listen tool, for example from https://www.pjrc.com/teensy/hid_listen.html
+
+
 Magic Commands
 --------------
 To see help press `Magic` + `H`.
