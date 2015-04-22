@@ -45,12 +45,12 @@ void led_set(uint8_t usb_led)
         PORTB |=  (1<<5);
     }
     if (usb_led&(1<<USB_LED_COMPOSE)) {
-        DDRD  |=  (1<<6);
-        PORTD |=  (1<<6);
+        DDRD  |=  (1<<7);
+        PORTD &= ~(1<<7);
     } else {
-        DDRD  |=  (1<<6);
-        PORTD &=  ~(1<<6);
+        DDRD  |=  (1<<7);
+        PORTD |=  (1<<7);
     }
-    DDRD  |=  (1<<7);
-    PORTD &= ~(1<<7);
+    DDRD  |=  (1<<6);
+    PORTD &= ~(1<<6);
 }
