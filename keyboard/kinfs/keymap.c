@@ -25,12 +25,12 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KEYMAP(F6  ,F3  ,ESC ,F9  ,F12 ,PAUS,           \
            F8  ,F5  ,F2  ,F11 ,SLCK,                \
            F7  ,F4  ,F1  ,F10 ,PSCR,                \
-           5   ,B   ,G   ,V   ,RGHT,FN0 ,LGUI,      \
-           4   ,W   ,T   ,C   ,          ESC ,FN0, \
+           5   ,B   ,G   ,V   ,RGHT,LCTL,LGUI,      \
+           4   ,W   ,T   ,C   ,          ESC ,RCTL, \
            3   ,R   ,H   ,M   ,LEFT,LALT,BSPC,      \
-           2   ,D   ,S   ,X   ,NUBS,     RGUI,RALT, \
-           1   ,Q   ,A   ,Z   ,GRV ,LCTL,ENT ,      \
-           EQL ,TAB ,LCTL,LSFT,          SPC ,RCTL , \
+           2   ,D   ,S   ,X   ,FN0 ,     RGUI,RALT, \
+           1   ,Q   ,A   ,Z   ,GRV ,DEL ,ENT ,      \
+           EQL ,TAB ,LCTL,LSFT,          SPC ,FN0 , \
                           UP  ,6   ,J   ,Y   ,K   , \
                                7   ,F   ,N   ,L   , \
                           DOWN,8   ,U   ,E   ,COMM, \
@@ -43,12 +43,12 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KEYMAP(F6  ,F3  ,ESC ,F9  ,F12 ,PAUS,           \
            F8  ,F5  ,F2  ,F11 ,SLCK,                \
            F7  ,F4  ,F1  ,F10 ,PSCR,                \
-           5   ,T   ,G   ,B   ,RGHT,FN0 ,LGUI,      \
-           4   ,R   ,F   ,V   ,          ESC ,FN0, \
+           5   ,T   ,G   ,B   ,RGHT,LCTL,LGUI,      \
+           4   ,R   ,F   ,V   ,          ESC ,RCTL, \
            3   ,E   ,D   ,C   ,LEFT,LALT,BSPC,      \
-           2   ,W   ,S   ,X   ,NUBS,     RGUI,RALT, \
-           1   ,Q   ,A   ,Z   ,GRV ,LCTL,ENT ,      \
-           EQL ,TAB ,LCTL,LSFT,          SPC ,RCTL , \
+           2   ,W   ,S   ,X   ,FN0 ,     RGUI,RALT, \
+           1   ,Q   ,A   ,Z   ,GRV ,DEL ,ENT ,      \
+           EQL ,TAB ,LCTL,LSFT,          SPC ,FN0 , \
                           UP  ,6   ,Y   ,H   ,N   , \
                                7   ,U   ,J   ,M   , \
                           DOWN,8   ,I   ,K   ,COMM, \
@@ -61,12 +61,12 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KEYMAP(F6  ,F3  ,ESC ,F9  ,F12 ,PAUS,           \
            F8  ,F5  ,F2  ,F11 ,SLCK,                \
            F7  ,F4  ,F1  ,F10 ,PSCR,                \
-           5   ,B   ,G   ,V   ,RGHT,FN0 ,LGUI,      \
-           4   ,W   ,T   ,C   ,          ESC ,FN0, \
+           5   ,B   ,G   ,V   ,RGHT,LCTL,LGUI,      \
+           4   ,W   ,T   ,C   ,          ESC ,RCTL, \
            3   ,R   ,H   ,M   ,LEFT,LALT,BSPC,      \
-           2   ,D   ,S   ,X   ,NUBS,     RGUI,RALT, \
-           1   ,Q   ,A   ,Z   ,GRV ,LCTL,ENT ,      \
-           EQL ,TAB ,LCTL,LSFT,          SPC ,RCTL , \
+           2   ,D   ,S   ,X   ,FN0 ,     RGUI,RALT, \
+           1   ,Q   ,A   ,Z   ,GRV ,DEL ,ENT ,      \
+           EQL ,TAB ,LCTL,LSFT,          SPC ,FN0 , \
                           UP  ,6   ,J   ,Y   ,K   , \
                                7   ,F   ,N   ,L   , \
                           DOWN,8   ,U   ,E   ,COMM, \
@@ -79,12 +79,12 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KEYMAP(F6  ,F3  ,ESC ,F9  ,F12 ,PAUS,           \
            F8  ,F5  ,F2  ,F11 ,SLCK,                \
            F7  ,F4  ,F1  ,F10 ,PSCR,                \
-           5   ,B   ,G   ,V   ,RGHT,FN0 ,LGUI,      \
-           4   ,W   ,T   ,C   ,          ESC ,FN0, \
+           5   ,B   ,G   ,V   ,RGHT,LCTL,LGUI,      \
+           4   ,W   ,T   ,C   ,          ESC ,RCTL, \
            3   ,R   ,H   ,M   ,LEFT,LALT,BSPC,      \
-           2   ,D   ,S   ,X   ,NUBS,     RGUI,RALT, \
-           1   ,Q   ,A   ,Z   ,GRV ,LCTL,ENT ,      \
-           EQL ,TAB ,LCTL,LSFT,          SPC ,RCTL , \
+           2   ,D   ,S   ,X   ,FN0 ,     RGUI,RALT, \
+           1   ,Q   ,A   ,Z   ,GRV ,DEL ,ENT ,      \
+           EQL ,TAB ,LCTL,LSFT,          SPC ,FN0 , \
                           UP  ,6   ,J   ,Y   ,K   , \
                                7   ,F   ,N   ,L   , \
                           DOWN,8   ,U   ,E   ,COMM, \
@@ -97,12 +97,12 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KEYMAP(F6  ,F3  ,ESC ,F9  ,F12 ,PAUS,           \
            F8  ,F5  ,F2  ,F11 ,SLCK,                \
            F7  ,F4  ,F1  ,F10 ,PSCR,                \
-           5   ,B   ,G   ,V   ,RGHT,FN0 ,LGUI,      \
-           4   ,W   ,T   ,C   ,          ESC ,FN0, \
+           5   ,B   ,G   ,V   ,RGHT,LCTL,LGUI,      \
+           4   ,W   ,T   ,C   ,          ESC ,RCTL, \
            3   ,R   ,H   ,M   ,LEFT,LALT,BSPC,      \
-           2   ,D   ,S   ,X   ,NUBS,     RGUI,RALT, \
-           1   ,Q   ,A   ,Z   ,GRV ,LCTL,ENT ,      \
-           EQL ,TAB ,LCTL,LSFT,          SPC ,RCTL , \
+           2   ,D   ,S   ,X   ,FN0 ,     RGUI,RALT, \
+           1   ,Q   ,A   ,Z   ,GRV ,DEL ,ENT ,      \
+           EQL ,TAB ,LCTL,LSFT,          SPC ,FN0 , \
                           UP  ,6   ,J   ,Y   ,K   , \
                                7   ,F   ,N   ,L   , \
                           DOWN,8   ,U   ,E   ,COMM, \
