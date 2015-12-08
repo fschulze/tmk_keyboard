@@ -115,19 +115,19 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KEYMAP(TRNS,TRNS,PWR ,TRNS,TRNS,TRNS,           \
            TRNS,TRNS,TRNS,TRNS,TRNS,                \
            TRNS,TRNS,TRNS,TRNS,TRNS,                \
-           TRNS,TRNS,TRNS,TRNS,END ,TRNS,TRNS,      \
-           TRNS,TRNS,RGHT,TRNS,          TRNS,TRNS, \
-           TRNS,UP  ,DOWN,TRNS,HOME,TRNS,DEL ,      \
-           TRNS,TRNS,LEFT,TRNS,TRNS,     TRNS,TRNS, \
-           TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,PENT,      \
+           F5  ,TRNS,TRNS,TRNS,END ,TRNS,TRNS,      \
+           F4  ,TRNS,RGHT,TRNS,          TRNS,TRNS, \
+           F3  ,UP  ,DOWN,TRNS,HOME,TRNS,DEL ,      \
+           F2  ,TRNS,LEFT,TRNS,TRNS,     TRNS,TRNS, \
+           F1  ,TRNS,TRNS,TRNS,TRNS,TRNS,PENT,      \
            TRNS,TRNS,CAPS,TRNS,          TRNS,TRNS, \
-                          PGUP,TRNS,TRNS,TRNS,TRNS, \
-                               TRNS,TRNS,MS_L,BTN1, \
-                          PGDN,TRNS,MS_U,MS_D,TRNS, \
+                          PGUP,F6  ,TRNS,TRNS,TRNS, \
+                               F7  ,TRNS,MS_L,BTN1, \
+                          PGDN,F8  ,MS_U,MS_D,TRNS, \
                                                     \
-                          TRNS,TRNS,BTN2,MS_R,TRNS, \
-                          TRNS,TRNS,TRNS,TRNS,TRNS, \
-                               TRNS,TRNS,TRNS,TRNS),
+                          TRNS,F9  ,BTN2,MS_R,TRNS, \
+                          TRNS,F10 ,TRNS,TRNS,TRNS, \
+                               F11 ,F12 ,TRNS,TRNS),
 };
 
 const uint16_t PROGMEM fn_actions[] = {
